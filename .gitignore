@@ -1,0 +1,39 @@
+# Dependencies
+/node_modules/
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# Build outputs and caches
+/.next/
+/out/
+/dist/
+/coverage/
+*.tsbuildinfo
+next-env.d.ts
+
+# Local environment
+.env*
+!.env.example
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Local hosting tool state
+/.netlify/
+/.vercel/
+/.wrangler/
+
+# Editors and operating systems
+/.vscode/
+/.idea/
+.DS_Store
+Thumbs.db
+*.pem

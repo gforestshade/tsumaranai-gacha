@@ -1,0 +1,11 @@
+services:
+  - type: web
+    runtime: static
+    name: finite-gacha
+    buildCommand: npm ci && npm run build
+    staticPublishPath: ./out
+    envVars:
+      - key: NODE_VERSION
+        value: 22.22.0
+      - key: NEXT_PUBLIC_SITE_URL
+        sync: false
