@@ -18,7 +18,7 @@ function formatBigInt(value: bigint): string {
 }
 
 export default function Home() {
-  const [countInput, setCountInput] = useState('100');
+  const [countInput, setCountInput] = useState('1');
   const [star2Input, setStar2Input] = useState('18');
   const [star3Input, setStar3Input] = useState('3');
   const [result, setResult] = useState<GachaResult | null>(null);
